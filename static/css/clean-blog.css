@@ -5,9 +5,9 @@
  */
 
 body {
-  font-family: 'Open Sans', 'Lora','Times New Roman',serif;
+  font-family: "Roboto", "Open Sans", "Lucida Grande", "Lucida Sans", sans-serif;
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 400;
   color: #404040;
 }
 
@@ -24,15 +24,15 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 800;
+  font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 300;
 }
 a {
-  color: #0085a1;
+  color: #20AA76;
 }
 a:hover,
 a:focus {
-  color: #0057a2;
+  color: #1d915c;
 }
 a img:hover,
 a img:focus {
@@ -43,8 +43,26 @@ blockquote {
   font-style: italic;
 }
 pre {
+  font-family: "Fira Mono", Consolas, Menlo, Monaco, "Courier New", Courier, monospace;
   background-color: transparent;
   font-size: 16px;
+}
+code {
+	font-family: "Fira Mono", Consolas, Menlo, Monaco, "Courier New", Courier, monospace;
+	padding: 2px 4px;
+    font-size: 90%;
+    color: #0C4B33;
+    background-color: #f9f2f4;
+    border-radius: 4px;
+}
+article a {
+	font-weight: 800;
+}
+article a:active, article a:focus, article a:hover {
+    color: #1d915c;
+}
+article a:visited {
+    color: #156741;
 }
 hr.small {
   max-width: 100px;
@@ -58,15 +76,16 @@ hr.small {
   left: 0;
   width: 100%;
   z-index: 3;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 .navbar-custom .navbar-brand {
   font-weight: 800;
 }
 .navbar-custom .nav li a {
+  font-family: 'Roboto', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 800;
   text-transform: uppercase;
   font-size: 12px;
-  font-weight: 800;
   letter-spacing: 1px;
 }
 @media only screen and (min-width: 768px) {
@@ -120,14 +139,14 @@ hr.small {
   }
   .navbar-custom.is-fixed .navbar-brand:hover,
   .navbar-custom.is-fixed .navbar-brand:focus {
-    color: #0085a1;
+    color: #1d915c;
   }
   .navbar-custom.is-fixed .nav li a {
     color: #404040;
   }
   .navbar-custom.is-fixed .nav li a:hover,
   .navbar-custom.is-fixed .nav li a:focus {
-    color: #0085a1;
+    color: #1d915c;
   }
   .navbar-custom.is-visible {
     /* if the user changes the scrolling direction, we show the header */
@@ -158,7 +177,7 @@ hr.small {
   .intro-header .site-heading,
   .intro-header .post-heading,
   .intro-header .page-heading {
-    padding: 150px 0;
+    padding: 110px 0;
   }
 }
 .intro-header .site-heading,
@@ -222,7 +241,7 @@ hr.small {
 .post-preview > a:hover,
 .post-preview > a:focus {
   text-decoration: none;
-  color: #0085a1;
+  color: #1d915c;
 }
 .post-preview > a > .post-title {
   font-size: 30px;
@@ -246,7 +265,7 @@ hr.small {
 }
 .post-preview > .post-meta > a:hover,
 .post-preview > .post-meta > a:focus {
-  color: #0085a1;
+  color: #1d915c;
   text-decoration: underline;
 }
 @media only screen and (min-width: 768px) {
@@ -326,7 +345,7 @@ footer .copyright {
   opacity: 1;
 }
 .floating-label-form-group-with-focus label {
-  color: #0085a1;
+  color: #1d915c;
 }
 form .row:first-child .floating-label-form-group {
   border-top: 1px solid #eeeeee;
@@ -346,8 +365,8 @@ form .row:first-child .floating-label-form-group {
 }
 .btn-default:hover,
 .btn-default:focus {
-  background-color: #0085a1;
-  border: 1px solid #0085a1;
+  background-color: #1d915c;
+  border: 1px solid #1d915c;
   color: white;
 }
 .pager {
@@ -367,8 +386,8 @@ form .row:first-child .floating-label-form-group {
 .pager li > a:hover,
 .pager li > a:focus {
   color: white;
-  background-color: #0085a1;
-  border: 1px solid #0085a1;
+  background-color: #1d915c;
+  border: 1px solid #1d915c;
 }
 .pager .disabled > a,
 .pager .disabled > a:hover,
@@ -381,12 +400,12 @@ form .row:first-child .floating-label-form-group {
 ::-moz-selection {
   color: white;
   text-shadow: none;
-  background: #0085a1;
+  background: #1d915c;
 }
 ::selection {
   color: white;
   text-shadow: none;
-  background: #0085a1;
+  background: #1d915c;
 }
 img {
   max-width: 100%;
@@ -402,7 +421,7 @@ img::-moz-selection {
   background: transparent;
 }
 body {
-  webkit-tap-highlight-color: #0085a1;
+  webkit-tap-highlight-color: #1d915c;
 }
 .article-summary {
   padding-top:10px;
